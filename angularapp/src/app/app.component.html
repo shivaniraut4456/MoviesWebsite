@@ -1,0 +1,111 @@
+
+
+<!-- <div class="red">This is Angular 14</div>
+
+<h1>Welcome to my angular project : {{title}}</h1>
+
+<app-demo></app-demo> -->
+
+<!-- <div>
+    <app-child [childProp]="sendData" (newPrice)="getDataFromChild($event)"></app-child>
+</div> -->
+
+<!-- <h1>{{price}}</h1>
+
+<div>
+  <app-ngfor></app-ngfor>
+
+</div>
+
+<div>
+    <app-ngswitch></app-ngswitch>
+</div>
+
+<div>
+    <app-ngstyle></app-ngstyle>
+</div>
+
+
+<div>
+    <app-ngclass></app-ngclass>
+</div>
+
+<br>
+<br>
+<br>
+
+<div style="text-align: center;">
+<p>Normal paragraph</p>
+<p appCustom>Custom paragraph</p>
+</div>
+
+
+<div>
+    <app-simpleform></app-simpleform>
+</div>
+
+
+<div>
+    <app-reactiveform></app-reactiveform>
+</div>
+
+
+
+<div>
+    <app-ngfor></app-ngfor>
+</div> -->
+
+<!-- <div class="row">
+    <div class="col-md-6"><app-comp1></app-comp1></div>
+    <div class="col-md-6"><app-comp2></app-comp2></div>
+    
+</div>
+
+<div class="row">
+    <div class="col-md-6"><app-comp3></app-comp3></div>
+    <div class="col-md-6"><app-comp4></app-comp4></div>
+</div>
+
+<div>
+    <app-crud></app-crud>
+</div> -->
+
+<!-- <div>
+    <app-todo></app-todo>
+</div> 
+
+<div>
+    <app-pipe></app-pipe>
+</div> -->
+
+<!-- <div>
+    <app-app-search></app-app-search>
+</div> -->
+
+<div class="container">
+            <app-input></app-input>
+
+            <app-search-detail *ngIf="searchString">
+                <h3 class="message"><u>Search result for {{searchString}} </u>..........</h3>
+            </app-search-detail>
+
+    
+
+    <div class="row">
+        <div class="col">
+            <app-search-skeleton *ngIf="isLoading" [skeletons]="skeletonArI"></app-search-skeleton>
+        
+            <app-search-results [movies]="searchResults"></app-search-results>
+            <app-search-notfound *ngIf="notFound">
+                <h3 class="no-data-found">No data available, Please search again...</h3>
+            </app-search-notfound>
+        </div>
+    </div>
+
+    
+</div>
+
+<div *ngIf="selectedMovieDetails">
+    <h2>{{ selectedMovieDetails.title }}</h2>
+    
+  </div>
